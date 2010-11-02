@@ -1,0 +1,9 @@
+1. Required third party software
+	* java (v 1.6)
+	* javac (v 1.6)
+	* MySql (v 5)
+2. Run scripts/users.sql in MySQL
+3. Run createDB.sql in MySQL
+4. Set your classpath to include the full path to jars/bpelDepend.jar
+5. Run the makefile, or execute the commands inside by hand
+6. To run the engine use:  java bpel/BpelEngine

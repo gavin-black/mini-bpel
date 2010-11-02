@@ -1,0 +1,17 @@
+          <ul>
+		  <li>Run a BPEL process: <b>http://localhost:8080/?bpel_file=http://filelocation/file.bpel</b></li>
+
+		  <li>Display running process: <b>http://localhost:8080/?id=<num>&amp;action=displayText</num></b></li>
+		  <li>Display XML of running process: <b>http://localhost:8080/?id=<num>&amp;action=displayXml</num></b></li>
+		  <li>Retrieve a variable: <b>http://localhost:8080/?id=<num>&amp;action=getVar&amp;name=<varname></varname></num></b></li>
+		  <li>Set a variable: <b>http://localhost:8080/?id=<num>&amp;action=setVar&amp;name=<varname>&amp;value=<varvalue></varvalue></varname></num></b></li>
+
+		  <li>Pause execution(Acts as kill): <b>http://localhost:8080/?id=<num>&amp;action=pause</num></b></li>
+		  <li>Resume a paused thread: <b>http://localhost:8080/?id=<num>&amp;action=resume</num></b></li>
+		  <li>Get the bpel file for a thread: <b>http://localhost:8080/?id=<num>&amp;action=getBpel</num></b></li>
+		  <li>Get the log for a thread: <b>http://localhost:8080/?id=<num>&amp;action=log</num></b></li>
+
+		  <li>Get the highest thread id: <b>http://localhost:8080/?action=getId</b></li>
+		  <li><b>NOTE: Not giving id=# will act upon the highest thread id (The most recent)</b></li>
+</ul>
+
